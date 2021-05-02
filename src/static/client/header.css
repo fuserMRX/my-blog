@@ -5,7 +5,7 @@
     align-items: center;
     border-bottom: 2px solid rgb(224, 135, 2);
     font-family: 'Metal Mania', cursive, sans-serif;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
 }
 
 .post-card-header-navigation p:hover {
@@ -28,23 +28,11 @@
 }
 
 .post-card-header-navigation .subscribe:hover {
-    transform: scale(1.5);
     color: rgb(224, 135, 2);
 }
 
-.post-card-header-logo {
-    font-family: 'Metal Mania', cursive, sans-serif;
-    font-size: 2.2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../../images/drakkar.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    text-shadow: 0 0 10px rgb(224, 135, 2),
-        0 0 10px rgb(224, 135, 2),
-        0 0 10px rgb(224, 135, 2),
-        0 0 10px rgb(224, 135, 2);
+.post-card-header-navigation input[type="search"]:focus {
+    color: rgb(224, 135, 2);
 }
 
 .post-card-header-logo a {
@@ -54,12 +42,12 @@
 }
 
 
-.form {
+.post-card-header-navigation .form {
     display: flex;
     flex-direction: row;
 }
 
-.search-field {
+.post-card-header-navigation .search-field {
     width: 100%;
     padding: 10px 35px 10px 15px;
     margin: auto;
@@ -69,11 +57,12 @@
     background-color: rgb(255, 255, 255);
 }
 
-.search-field::placeholder {
+.post-card-header-navigation .search-field::placeholder {
     font-family: 'Metal Mania', cursive, sans-serif;
+    font-size: 1vw;
 }
 
-.search-button {
+.post-card-header-navigation .search-button {
     background: transparent;
     border: none;
     outline: none;
@@ -82,8 +71,24 @@
     cursor: pointer;
 }
 
-.search-button img {
+.post-card-header-navigation .search-button img {
     width: 30px;
     height: 30px;
     object-fit: cover;
 }
+
+.post-card-header-logo {
+    font-family: 'Metal Mania', cursive, sans-serif;
+    font-size: 2.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../assets/images/drakkar.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-shadow: 0 0 10px rgb(224, 135, 2),
+        0 0 10px rgb(224, 135, 2),
+        0 0 10px rgb(224, 135, 2),
+        0 0 10px rgb(224, 135, 2);
+}
+
