@@ -35,13 +35,6 @@
     color: rgb(224, 135, 2);
 }
 
-.post-card-header-logo a {
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-}
-
-
 .post-card-header-navigation .form {
     display: flex;
     flex-direction: row;
@@ -90,5 +83,18 @@
         0 0 10px rgb(224, 135, 2),
         0 0 10px rgb(224, 135, 2),
         0 0 10px rgb(224, 135, 2);
+}
+
+.post-card-header-logo a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.post-card-header i {
+    position: absolute;
+    left: 95%;
+    top: 2%;
+    font-size: 3vw;
 }
 
