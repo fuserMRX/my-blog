@@ -96,5 +96,10 @@
     left: 95%;
     top: 2%;
     font-size: 3vw;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.post-card-header i:active {
+    transform: scale(0.95);
+}

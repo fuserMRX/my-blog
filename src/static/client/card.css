@@ -72,7 +72,6 @@
 }
 
 .post-card-container a:hover {
-    /* color: purple; */
     color: rgb(207, 126, 3);
     text-decoration: underline;
 }
@@ -129,3 +128,30 @@
 .post-card-social-icons .fa-chevron-down {
     margin-left: auto;
 }
+
+.load-more-button {
+    margin: 3% 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.load-more-button button {
+    width: 30%;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Metal', cursive, sans-serif;
+}
+
+.load-more-button button:hover{
+    background-color: rgb(248, 182, 106);
+    color: white;
+    box-shadow: 5px 12px 16px 0 rgba(0,0,0,0.24), 10px 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+.load-more-button button:active {
+    transform: scale(0.98);
+    box-shadow: 0 3px 15px -2px;
+  }

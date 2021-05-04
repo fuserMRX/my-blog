@@ -1,0 +1,51 @@
+.post-card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333;
+    color: white;
+    line-height: 2em;
+    word-wrap: break-word;
+    font-family: 'Metal', cursive, sans-serif;
+    text-align: center;
+}
+
+.post-card-footer * {
+    cursor: pointer;
+}
+
+.post-card-footer i:hover {
+    cursor: pointer;
+    color: rgb(224, 91, 2);
+}
+
+.post-card-footer > a {
+    text-decoration: none;
+}
+
+.post-card-footer > hr {
+    min-height: 80%;
+    max-height: 100vh;
+    margin: 1%;
+}
+
+.post-card-footer .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.post-card-footer .menu a:hover,
+.post-card-footer p:hover {
+    color: rgb(224, 91, 2);
+}
+
+.post-card-footer .menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.post-card-footer .menu a:hover{
+    text-decoration: underline;
+}
