@@ -5,7 +5,7 @@
     align-items: center;
     border-bottom: 2px solid rgb(224, 135, 2);
     font-family: 'Metal Mania', cursive, sans-serif;
-    font-size: 1.8vw;
+    font-size: 3vw;
 }
 
 .post-card-header-navigation p:hover {
@@ -102,4 +102,10 @@
 
 .post-card-header i:active {
     transform: scale(0.95);
+}
+
+@media(min-width:900px) {
+    .post-card-header-navigation {
+        font-size: 1.8vw;
+    }
 }
