@@ -104,6 +104,11 @@
     transform: scale(0.95);
 }
 
+.header-link {
+    text-decoration: none;
+    color: black;
+}
+
 @media(min-width:900px) {
     .post-card-header-navigation {
         font-size: 1.8vw;
