@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Personal blog web site" />
-    <link rel="stylesheet" href="../static/client/blog/blogMain.css" />
+    <link rel="stylesheet" href="../static/client/blog/blogMainGlobal.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Metal+Mania&family=Orelega+One&display=swap" />
@@ -17,7 +17,7 @@
 <body>
     <div class="blog-container">
         <div class="post-card-header">
-            <i class="far fa-id-card fa-lg"></i>
+            <i class="far fa-user-circle fa-lg"></i>
             <div class="post-card-header-logo">
                 <img src="/src/assets/images/siteLogo.webp" alt="imageLogo" />
                 <h1><a href="#" title="Main Logo">Metal Travel Bug</a></h1>
@@ -44,23 +44,27 @@
                 </form>
             </nav>
         </div>
-
         <main class="blog-card-main">
-            <article>
-                <section>
-                    <div>
-                        <p class="post-card-badge">Camping</p>
-                        <h2>
-                            <b> How to camping at W:O:A</b>
-                        </h2>
-                        <p>By <b>Volodymy Novodid</b></p>
-                        <p>June 15</p>
-                        <figure>
-                            <img src="images/postCard1.png" alt="Post Card 1">
-                            <figcaption>Camp itself</figcaption>
-                        </figure>
-                        <div class="post-card-entry-content">
-                            <p>The largest part of Wacken Open Air area is occupied by the gigantic campground. You camp
+            <section>
+                <div>
+                    <div class="post-card-header-section">
+                        <h2>Camping</h2>
+                        <div class="post-card-bookmark-section">
+                            <h3>
+                                <b> How to camping at W:O:A</b>
+                            </h3>
+                            <i class="far fa-bookmark fa-lg"></i>
+                        </div>
+                        <p class="post-card-name"><b><i>By Volodymyr N.</i></b></p>
+                        <p>May 9, 2021</p>
+                    </div>
+                    <div class="post-card-image">
+                        <img src="/src/assets/images/wackenCamping.webp" alt="Post Card 1">
+                    </div>
+                    <div class="post-card-entry-content">
+                        <section>
+                            <p><h4><b><i class="fas fa-tree fa-lg"></i> THE CAMPING AREA:</b></h4> The largest part of Wacken
+                                Open Air area is occupied by the gigantic campground. You camp
                                 on agricultural areas, each with an own identification letter for better orientation.
                                 Also the ways on and between these camps have clear names.</p>
 
@@ -69,50 +73,101 @@
                                 that you can camp right next to them.</p>
 
                             <p>The campsite is equipped with showers and toilets, which are also fully paid for by the
-                                entrance fee. There are therefore no additional fees! At the same time, the site can
+                                entrance fee. <i class="post-card-highlight">There are therefore no additional fees!</i> At the same time, the site can
                                 only be accessed or visited by people who have a valid ticket.</p>
 
                             <p>Further infrastructure includes signposts, light poles, breakfast tents, small
-                                supermarket tents and a few stalls for food and drinks. On the camping sites there is no
-                                limit for your own food and drinks!</p>
-                        </div>
+                                supermarket tents and a few stalls for food and drinks. <i class="post-card-highlight">On the camping sites there is no
+                                limit for your own food and drinks!</i></p>
+                        </section>
+                        <section>
+                            <p><h4><b><i class="fas fa-map-signs fa-lg"></i> SPECIAL CAMPING AREAS:</b></h4>There are some areas on the campsite
+                                that offer special amenities or are subject to slightly different rules.
+                            <ul>
+                                <li>
+                                    <b>Wheels Of Steel-Area:</b> This course is close to the stage area and is kept
+                                    free for handicapped metalheads and their companions.
+                                    There are also some special services, like employees
+                                    who can repair broken wheelchairs.
+                                </li>
+                                <li>
+                                    <b>Camperpark Wacken:</b> Parcels with electricity - organized by the Camperpark Wacken GbR.
+                                    The area tends to be quieter and more family-friendly than others. 
+                                </li>
+                                <li>
+                                    <b>Moshtel:</b> container hotel, located close to the stage area.
+                                    Since Wacken has no hotel, hostel or similar, we installed the the Moshtel to meet the desire
+                                    of many fans for a solid accommodation directly in Wacken.
+                                </li>
+                                <li><b>Camping Only:</b> Adjacent to the bus station lies the area,
+                                    in which only may be camped without a vehicle.
+                                    Without the vehicles, it is relatively quiet,
+                                    the typical large music systems are barely found here.
+                                </li>
+                                <li>
+                                    <b>World Metal Camp:</b> A big camp
+                                    for visitors who arrive without a vehicle.
+                                    The focus is on the international exchange between visitors.
+                                </li>
+                                <li>
+                                    <b>Full Metal Army Camp:</b> Each year, fan club organizes
+                                    a large shared camp with party tent, power outlets and many other amenities.
+                                </li>
+                            </ul>
+                        </section>
                     </div>
-                </section>
-                <div class="post-card-side-bar">
-                    <aside>
-                        <div class="post-card-contact">
-                            <img src="img_avatar.png" alt="Avatar">
-                            <div class="post-card-container">
-                                <h4><b>About/Contact</b></h4>
-                                <p>Community Travels</p>
-                            </div>
-                        </div>
-                        <div class="post-card-contact">
-                            <div class="post-card-container">
-                                <h4><b>Social Contacts</b></h4>
-                                <p>facebook</p>
-                                <p>instagram</p>
-                                <p>twitter</p>
-                            </div>
-                        </div>
-                        <div>
-                            <p class="post-card-badge">Camping</p>
-                            <p>Most Popular Posts</p>
-                            <a>January 2021</a>
-                            <a>February 2021</a>
-                            <a>March 2021</a>
-                            <a>April 2021</a>
-                            <a>May 2021</a>
-                        </div>
-                    </aside>
                 </div>
-            </article>
+            </section>
         </main>
 
+        <article class="blog-card-side">
+            <aside>
+                <div class="blog-card-side-info">
+                    <img class="avatar" src="/src/assets/images/me.webp" alt="Avatar">
+                    <h4><a href="#"><p>About/Contact The Article Writer</p></a></h4>
+                    <p>
+                        <q>Volodymyr is passionate about React, <br/>
+                            Javascript, likes to travel around<br />
+                            the world, visits open air festivals,<br />
+                            writes articles about festivals
+                        </q>
+                    </p>
+                </div>
+                <div class="blog-card-side-contact">
+                    
+                    <h4><b><i class="fas fa-users fa-lg"></i> Social Contacts</b></h4>
+
+                    <p><a href="#"><b><i class="fab fa-facebook-square fa-lg"></i> facebook</b></a></p>
+                    <p><a href="#"><b><i class="fab fa-instagram fa-lg"></i> instagram</b></a></p>
+                    <p><a href="#"><i class="fab fa-twitter fa-lg"></i><b> twitter</b></a></p>
+                </div>
+                <div class="blog-card-side-stories">
+                    <p class="post-card-badge"><b>Camping</b></p>
+                    <h4><b><i class="fas fa-fire-alt"></i> Most Popular Posts</b></h4>
+                    <ul class="blog-card-side-stories-list">
+                        <li><a href="#">January 2021</a></li>
+                        <li><a href="#">February 2021</a></li>
+                        <li><a href="#">March 2021</a></li>
+                        <li><a href="#">April 2021</a></li>
+                        <li><a href="#">May 2021</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </article>
+    </div>
+    <section>
+        <div class="load-more-button" data-js-previuos>
+            <button><i class="fas fa-spinner fa-spin"></i> Previuos Post</button>
+        </div>
+        <div class="load-more-button" data-js-next>
+            <button><i class="fas fa-spinner fa-spin"></i> Next Post</button>
+        </div>
+    </section>
+    <div>
         <footer class="post-card-footer">
             <div class="about">
                 <i class="fas fa-hiking fa-lg"></i>
-                <p>Site about traveling and visiting <br/>
+                <p>Site about traveling and visiting <br />
                     metal/ethnic/rock festivals
                 </p>
             </div>

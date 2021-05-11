@@ -1,3 +1,65 @@
-@import '../header.css';
-@import 'blogLayout.css';
-@import '../footer.css';
+.blog-card-main {
+    text-align: center;
+    word-wrap: break-word;
+    font-family: 'Metal', cursive, sans-serif;
+    background-color: white;
+    border-radius: 3%;
+    padding: 5%;
+    margin-top: 2%;
+    transition: 0.3s;
+}
+
+.post-card-header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1em;
+}
+
+.post-card-name {
+    color: rgb(255, 42, 42);
+}
+
+.post-card-image {
+    background-color: #fbf9f4;
+    padding: 4%;
+    border-radius: 3%;
+}
+
+.post-card-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3%;
+}
+
+.post-card-entry-content {
+    text-align: justify;
+}
+
+.post-card-highlight {
+    color: rgb(224, 135, 2);
+}
+
+.post-card-bookmark-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.post-card-bookmark-section .fa-bookmark {
+    margin-left: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.post-card-bookmark-section .fa-bookmark:hover {
+    color: rgb(224, 135, 2);
+}
+
+.post-card-bookmark-section .fa-bookmark:active {
+    transform: scale(0.90);
+    background-color: rgb(224, 135, 2);
+}

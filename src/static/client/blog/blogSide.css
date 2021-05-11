@@ -1,0 +1,84 @@
+.blog-card-side {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Metal', cursive, sans-serif;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+.blog-card-side-stories,
+.blog-card-side-contact,
+.blog-card-side-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: solid 10px #fbf9f4;
+    border-radius: 10%;
+    padding: 5%;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.blog-card-side-stories a,
+.blog-card-side-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-card-side-stories a:hover,
+.blog-card-side-info a:hover {
+    text-decoration: underline;
+    color: rgb(224, 135, 2);
+}
+
+.blog-card-side-info h4 {
+    background-color: #fbf9f4;
+    border-radius: 10%;
+    padding: 0 15%;
+}
+
+.blog-card-side-contact h4 {
+    background-color: #fbf9f4;
+    border-radius: 10%;
+    padding: 3% 30%;
+}
+
+.blog-card-side-stories h4 {
+    background-color: #fbf9f4;
+    border-radius: 10%;
+    padding: 3% 25%;
+}
+
+.blog-card-side-contact a {
+    color: black;
+}
+
+.blog-card-side-contact a:hover {
+    color: rgb(224, 135, 2);
+}
+
+.post-card-badge {
+    text-shadow: 0 0 1px rgb(248, 182, 106),
+    0 0 1px rgb(248, 182, 106),
+    0 0 1px rgb(248, 182, 106),
+    0 0 1px rgb(248, 182, 106);
+}
+
+.blog-card-side-stories-list {
+    text-align: left;
+}
+
+.load-more-button {
+    margin: 3% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}

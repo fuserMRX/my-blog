@@ -1,0 +1,6 @@
+@import '../header.css';
+@import '../footer.css';
+@import 'blogLayout.css';
+@import 'blogMain.css';
+@import 'blogSide.css';
+@import '../loadMoreBtn.css';
