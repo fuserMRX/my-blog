@@ -35,7 +35,7 @@ body {
     .blog-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.1fr 0.1fr 0.1fr;
+        grid-template-rows: 0.1fr 0.1fr;
         grid-template-areas:
             "hd hd hd hd hd hd hd hd"
             "main main main main main main side side";
@@ -47,4 +47,21 @@ body {
     .post-card-footer > hr {
         min-height: 15vh;
     }
+}
+
+.blog-card-buttons-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.load-more-button button {
+    width: 20vw;
+    border-radius: 8px;
+    transition: 0.3s;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Metal', cursive, sans-serif;
+    margin: 5%;
 }
