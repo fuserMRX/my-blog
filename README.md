@@ -4,6 +4,8 @@
 
 ![my-blog-build](https://img.shields.io/badge/blog-1.0.0-green)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50b510f2-d5c4-4fe4-9a17-e3338cf916e5/deploy-status)](https://app.netlify.com/sites/vibrant-leavitt-a25587/deploys)
+
 This project was bootstrapped with [CSS GRID](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout).
 
 ## Available Scripts
