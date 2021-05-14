@@ -91,6 +91,11 @@
     cursor: pointer;
 }
 
+.post-card-header-logo img {
+    max-width: 40%;
+    height: auto;
+}
+
 .post-card-header i {
     position: absolute;
     left: 95%;
